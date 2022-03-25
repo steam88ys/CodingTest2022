@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="getMax.c">
+    <ClCompile Include="find.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="getMin.c">
+    <ClCompile Include="findRandom.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
