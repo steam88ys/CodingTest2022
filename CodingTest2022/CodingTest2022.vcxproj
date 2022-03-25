@@ -140,10 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="getMax.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="getMin.c" />
-    <ClCompile Include="sumAvg.c">
+    <ClCompile Include="getMin.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
