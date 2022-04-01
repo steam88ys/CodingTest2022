@@ -17,12 +17,11 @@ int main(void)
 	//printf("문자열의 길이 : %d \t(while문 사용)\n", cnt);
 
 	cnt = 0;
-	for (i = 0; i <= cnt; i++) 
+	for (i = 0; s1[i] != 0; i++) 
 	{
 		s2[i] = s1[i];
-		if (s1[i] == '\0') break;
-		cnt++;
 	}
+	s2[i] = 0;
 	//printf("문자열의 길이 : %d \t(for문 사용)", cnt);
 	printf("복사본 : %s", s2);
 }
