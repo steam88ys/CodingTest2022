@@ -21,5 +21,8 @@
     <ClCompile Include="ptrtypecast.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="multipointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
